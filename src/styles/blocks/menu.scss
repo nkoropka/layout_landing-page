@@ -1,0 +1,56 @@
+.menu {
+  overflow: auto;
+
+  box-sizing: border-box;
+  height: $height-viewport;
+
+  font-weight: $font-weight-semibold;
+  text-transform: uppercase;
+
+  background-color: #C2C2C2;
+
+
+  &__top {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+
+    margin-bottom: $spacing-md;
+
+    background-color: #C2C2C2;
+
+    @include on-tablet {
+      margin-bottom: 0;
+    }
+  }
+
+  &__nav {
+    margin-bottom: $spacing-lg  ;
+  }
+
+  &__phone-number {
+    display: block;
+
+    margin-bottom: $spacing-sm;
+
+    font-size: $fs-16;
+    line-height: $lh-px-27;
+    color: #1D1D1D;
+    text-decoration: none;
+  }
+
+  &__call-to-book {
+    display: block;
+
+    width: fit-content;
+    padding-bottom: $spacing-xxs;
+    border-bottom: 1px solid #1D1D1D;
+
+    font-size: $fs-12;
+    line-height: $lh-px-16;
+    color: #1D1D1D;
+    text-decoration: none;
+    letter-spacing: $letter-spacing-base;
+  }
+}
+
