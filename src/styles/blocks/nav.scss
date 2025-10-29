@@ -20,7 +20,7 @@
     letter-spacing: $letter-spacing-base;
 
     &::after {
-      content: "";
+      content: '';
 
       position: absolute;
       bottom: -8px;
@@ -42,4 +42,3 @@
     }
   }
 }
-

@@ -7,8 +7,7 @@
   font-weight: $font-weight-semibold;
   text-transform: uppercase;
 
-  background-color: #C2C2C2;
-
+  background-color: #c2c2c2;
 
   &__top {
     position: sticky;
@@ -17,7 +16,7 @@
 
     margin-bottom: $spacing-md;
 
-    background-color: #C2C2C2;
+    background-color: #c2c2c2;
 
     @include on-tablet {
       margin-bottom: 0;
@@ -25,7 +24,7 @@
   }
 
   &__nav {
-    margin-bottom: $spacing-lg  ;
+    margin-bottom: $spacing-lg;
   }
 
   &__phone-number {
@@ -35,7 +34,7 @@
 
     font-size: $fs-16;
     line-height: $lh-px-27;
-    color: #1D1D1D;
+    color: #1d1d1d;
     text-decoration: none;
   }
 
@@ -44,13 +43,12 @@
 
     width: fit-content;
     padding-bottom: $spacing-xxs;
-    border-bottom: 1px solid #1D1D1D;
+    border-bottom: 1px solid #1d1d1d;
 
     font-size: $fs-12;
     line-height: $lh-px-16;
-    color: #1D1D1D;
+    color: #1d1d1d;
     text-decoration: none;
     letter-spacing: $letter-spacing-base;
   }
 }
-

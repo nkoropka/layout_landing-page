@@ -38,9 +38,8 @@
 
     max-width: 0;
 
-
     font-size: $fs-12;
-    font-weight: $font-weight-bold  ;
+    font-weight: $font-weight-bold;
     line-height: $lh-px-16;
     color: $color-text-light;
     text-decoration: none;
@@ -49,7 +48,9 @@
     opacity: 0;
 
     @include on-desktop {
-      transition: max-width $effectDuration ease, opacity $effectDuration ease;
+      transition:
+        max-width $effectDuration ease,
+        opacity $effectDuration ease;
     }
   }
 

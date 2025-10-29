@@ -4,7 +4,6 @@
     row-gap: $spacing-lg;
     margin-bottom: $spacing-lg;
 
-
     @include on-tablet {
       row-gap: $spacing-xl;
       margin-bottom: $spacing-xl;
@@ -40,12 +39,12 @@
     }
 
     &:hover {
-      box-shadow: 1px 4px 16px 0 #E8E8F066;
+      box-shadow: 1px 4px 16px 0 #e8e8f066;
     }
 
     &:active {
       transform: translateY(1px);
-      box-shadow: 1px 4px 16px 0 #E8E8F0A3;
+      box-shadow: 1px 4px 16px 0 #e8e8f0a3;
     }
   }
 }
@@ -55,7 +54,6 @@
     @include page-grid;
 
     margin-bottom: $spacing-sm;
-
   }
 
   &__link {
@@ -86,18 +84,18 @@
   &__photo {
     position: absolute;
 
-     overflow: hidden;
+    overflow: hidden;
 
     width: 100%;
     height: 100%;
 
     object-fit: cover;
 
-     transition: transform $effectDuration ease-out;
+    transition: transform $effectDuration ease-out;
 
-     &:hover {
+    &:hover {
       transform: scale(1.05);
-     }
+    }
   }
 
   &__title {
@@ -116,4 +114,3 @@
     line-height: $lh-unit-relaxed;
   }
 }
-

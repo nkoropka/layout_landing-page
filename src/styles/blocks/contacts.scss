@@ -16,17 +16,16 @@
     gap: $spacing-sm;
 
     @include on-tablet {
-      grid-column: 1 / 4 ;
+      grid-column: 1 / 4;
     }
 
     @include on-desktop {
-      grid-column: span 5 ;
+      grid-column: span 5;
     }
   }
 
   &__wrapper {
     grid-column: 1 / -1;
-
 
     @include on-tablet {
       grid-column: 4 / 7;
@@ -83,7 +82,6 @@
   &__textarea {
     height: $height-textarea;
     border-radius: $radius-sm;
-
   }
 
   &__button {
@@ -102,12 +100,12 @@
     transition: box-shadow $effectDuration ease-out;
 
     &:hover {
-      box-shadow: 1px 4px 16px 0 #E8E8F066;
+      box-shadow: 1px 4px 16px 0 #e8e8f066;
     }
 
     &:active {
       transform: translateY(1px);
-      box-shadow: 1px 4px 16px 0 #E8E8F0A3;
+      box-shadow: 1px 4px 16px 0 #e8e8f0a3;
     }
   }
 
