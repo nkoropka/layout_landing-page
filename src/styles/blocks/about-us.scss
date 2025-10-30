@@ -21,12 +21,13 @@
     }
 
     @include on-desktop {
-      grid-column: span 5;
+      grid-column: span 6;
     }
   }
 
   &__description {
     margin: 0;
+    font-size: $fs-23;
     line-height: $lh-unit-relaxed;
   }
 }
