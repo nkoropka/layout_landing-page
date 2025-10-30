@@ -80,6 +80,7 @@
   }
 
   &__textarea {
+    resize: none;
     height: $height-textarea;
     border-radius: $radius-sm;
   }
